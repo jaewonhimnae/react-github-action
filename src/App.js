@@ -14,14 +14,14 @@ function App() {
           onClick={() => setCount((prev) => prev - 1)}
           disabled={disabled}
         >
-          -
+          --
         </button>
         <button
           data-testid="plus-button"
           onClick={() => setCount((prev) => prev + 1)}
           disabled={disabled}
         >
-          +
+          ++
         </button>
         <div>
           <button
