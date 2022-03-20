@@ -14,7 +14,7 @@ function App() {
           onClick={() => setCount((prev) => prev - 1)}
           disabled={disabled}
         >
-          -d
+          -ds
         </button>
         <button
           data-testid="plus-button"
